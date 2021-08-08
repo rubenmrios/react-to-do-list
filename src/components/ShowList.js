@@ -6,7 +6,7 @@ const ShowList = ({data,deleteData}) => (
 
     <Card className="bg-dark mt-3 text-white" style={{ width: '18rem' }}>
     <Card.Body>
-      <Card.Title>Nameeeeeeee: {data.name}</Card.Title>
+      <Card.Title>Nameeeeeeeeeee: {data.name}</Card.Title>
       <Card.Subtitle className="mb-2 text-muted">Last Name: {data.lastName}</Card.Subtitle>
       <Card.Text>
      Date:  {data.date}
